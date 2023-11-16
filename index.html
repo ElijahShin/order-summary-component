@@ -17,14 +17,14 @@
   </style>
 </head>
 <body class="flex">
-  <!-- <div class="outer-wrapper"> -->
+
     <div class="content-wrapper flex">
-      <!-- <div class="header-img"> -->
+      <div class="header-img">
         <img src="./images/illustration-hero.svg" alt="Person grooving to music">
-      <!-- </div> -->
+      </div>
         
-    <div class="main-content-wrapper">
-      <div class="summary-wrapper">
+    <div class="main-content-wrapper flex">
+      <div class="summary-wrapper flex">
         <h1 class="head-txt">Order Summary</h1>
         <p class="info-txt">
           You can now listen to millions of songs, audiobooks, and podcasts on any 
@@ -32,30 +32,36 @@
         </p>
       </div>
      
-      <div class="plan-wrapper">
-        <h3 class="plan-txt">Annual Plan</h3>
-        <p>$59.99/year</p>
-        <div class="link-wrapper">
-          <a href="##" class="link">Change</a>
+      <div class="plan-wrapper flex">
+        <div class="plan-left flex">
+          <img class='music-img' src="./images/icon-music.svg" alt="Music Symbol">
+          <div class="annual-wrapper flex">
+            <h3 class="plan-txt">Annual Plan</h3>
+            <p>$59.99/year</p>
+          </div>
+        </div>
+       
+        
+        <div class="link-txt">
+          <a href="##" class="change-link">Change</a>
         </div>
       </div>
       
-        <div class="cta-wrapper">
-          <button>Proceed to Payment</button>
-          <h4 class="cancel-txt">Cancel Order</h4>
-        </div>
+
+      <button>Proceed to Payment</button>
+      <a class="cancel-link">Cancel Order<a/>
     </div>
       
 
     </div>
 
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Elijah</a>.
+    </div>
 
-  <!-- </div> -->
     
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Elijah</a>.
-  </div>
+  
 </body>
 </html>
