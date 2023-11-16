@@ -54,7 +54,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
 }
 
@@ -73,11 +73,15 @@ h4 {
 
 p {
   font-size: 16px;
-  line-height: 1.3;
+  line-height: 1.5;
   color: hsl(224, 23%, 55%);
 }
 
 /* Layout & styles*/
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .flex {
   display: flex;
@@ -99,7 +103,7 @@ body {
   width: 27vw;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: white;
   
 }
@@ -108,11 +112,43 @@ body {
   padding: 40px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px 10px 0 0;
+.header-img img {
+  border-radius: 15px 15px 0 0;
 }
+
+.summary-wrapper {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.head-txt {
+  margin-bottom: 20px;
+}
+
+.plan-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan-left {
+  gap: 20px;
+}
+
+.annual-wrapper {
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.link-txt {
+  align-self: center;
+}
+
 
 button {
   color: white;
